@@ -1,0 +1,180 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    width: auto;
+    background-color:rgb(58, 113, 232) ;
+    height: 71px;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+    /* display: inline; */
+    padding: 1px;
+}
+
+.navbar input {
+    padding: 4px;
+    width: 400px;
+    border: 10px;
+}
+
+.navbar button {
+    background-color: #fff;
+    border: none;
+    padding: 2px;
+    position: absolute;
+    margin-left: -13px;
+    color: rgb(58, 113, 232)
+}
+
+.login {
+    display: block;
+    padding-right: 10px;
+    float: left;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.login input {
+    color: rgb(58, 113, 232);
+    width: 100px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+ /* .dropdown a {
+    border: none;
+    border: white;
+    background-color: #fff;
+    padding:16px;
+    font-size: 16px;
+    margin-top: -7px;} */
+
+
+.dropdown{
+    color: #fff;
+    position: relative;
+    margin-left: 80px;
+}
+.drop-content{
+    position: absolute;
+/* display: block;
+    padding: 22px;
+    box-shadow: 2px 2px 5px black;
+    top:60px;
+    left: 920px;
+    visibility: visible; */
+    border: 1px ;
+
+}
+.drop-content ul{
+    display: block;
+    list-style: none;
+    color: black;
+    height: 10px;
+}
+.drop-content ul li {
+    color: black;
+    display: inline-flex;
+    visibility: hidden;
+    font-size: 15px;
+    
+}
+
+.drop-content .material-symbols-outlined{
+    color: #000;
+}
+ .drop-content:hover li{
+    visibility: visible;
+ }
+.cart {
+ color:white;
+ list-style: none;
+ position: absolute;
+ display:inline-block;
+ padding-top: 9px;
+ padding-right: 40px;
+ margin-left: 150px;
+}
+.img ul{
+    color: #fff;
+    list-style: none;
+   
+}
+.img li{
+    float: left; 
+    padding: 23px;
+    color: #000;
+
+}
+span{
+    display: block;
+    padding:2px ;
+}
+.img{
+    width: 100%;
+    height:120px;
+    box-shadow:5px 5px 10px black;
+
+}
+
+.box{
+    color: gold;
+    border: 6px solid gold;
+    background-color: red;
+    position: absolute;
+    width: 1000px;
+    height: 200px;
+    padding-top: auto;
+    margin-top: 50px;
+    margin-left: 130px;
+     border-radius: 50% 0 50% 0; 
+     
+}
+p{
+    color: darkblue;
+    text-align: center;
+    margin-top: 8px;
+    font-size:large;
+}
+.box img{
+    height: auto;
+    width: 300px;
+    border-radius:50% 50%  ;
+    margin-left: 360px;
+}
+.card{
+    margin-top: 300px;
+
+}
+.row >div{
+    margin-bottom: 150px;
+    padding:6px;
+   margin: auto;
+    transition: transform 450ms;
+
+}
+.col >div{
+    margin-top: 10px;
+}
+.row img:hover {
+    transform: scale(1.08);
+}
+.navbar p{
+    color: yellow;
+}

@@ -1,0 +1,38 @@
+.container{
+    height: 500px;
+    width: 600px;
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+}
+.image{
+    height:20px;
+    width:20px ;
+    background-color:rgb(61, 61, 220);
+    
+}
+.container2{
+    height: 500px;
+    width: 50%;
+   
+}
+.container2 h1{
+    text-align:justify
+}
+button{
+    color: aliceblue;
+    background-color: rgb(66, 66, 219);
+    padding: 4px 10px;
+}
+.btn{
+   display: inline;
+}
+.btn button{
+    background-color:white;
+    border-radius: 5px;
+    color: blue;
+    border: .5px solid blue;
+    padding: 4px 10px;
+
+}
